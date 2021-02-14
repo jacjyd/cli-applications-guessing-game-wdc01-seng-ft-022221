@@ -8,8 +8,6 @@ def run_guessing_game
   puts "Guess the number from 1 to 6"
   guess = gets.chomp
   
-  binding.pry
-  
   if guess == "exit"
     puts "Goodbye!"
   elsif guess == to_guess
