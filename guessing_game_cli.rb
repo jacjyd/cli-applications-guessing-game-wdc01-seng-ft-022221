@@ -11,6 +11,7 @@ def run_guessing_game
   if guess == "exit"
     puts "Goodbye!"
   elsif guess == to_guess
+    binding.pry
     puts "You guessed the correct number!"
   elsif guess != to_guess
     puts "Sorry! The computer guessed #{to_guess}."
