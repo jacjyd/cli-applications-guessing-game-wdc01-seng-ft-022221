@@ -10,7 +10,7 @@ def run_guessing_game
   
   binding.pry
   
-  if guess = "exit"
+  if guess == "exit"
     puts "Goodbye!"
   elsif guess == to_guess
     puts "You guessed the correct number!"
